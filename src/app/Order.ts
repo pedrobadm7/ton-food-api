@@ -24,7 +24,7 @@ export const Product = model('Product', new Schema({
       },
       quantity: {
         type: Number,
-        default: 1
+        default: 1,
       }
     }]
   }
